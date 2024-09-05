@@ -5,7 +5,7 @@ function setup() {
   angleMode(DEGREES); // Setting angle mode to degrees for easy rotations
 
   // Generate a lot of sunflowers randomly on the canvas
-  for (let i = 0; i < 50; i++) { // Increased to 100 sunflowers
+  for (let i = 0; i < 10; i++) { // Increased to 100 sunflowers
     let x = random(width);
     let y = random(height);
     let size = random(30, 100); // Reduced size for variation
